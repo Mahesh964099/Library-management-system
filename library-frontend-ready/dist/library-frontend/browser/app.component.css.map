@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;ba843fc7f06674c584ce63c1f3df71a2a50a2c80f0d752df47a993e9019c68da;C:/soc 5/library-management-system-rebuilt/library-management-system-rebuilt/library-frontend-ready/src/app/app.component.ts"],
+  "sourcesContent": ["\n  nav {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    background: #0078d4;\n    color: white;\n    padding: 10px 20px;\n  }\n  nav a {\n    color: white;\n    margin: 0 10px;\n    text-decoration: none;\n  }\n  nav a:hover {\n    text-decoration: underline;\n  }\n  .container {\n    padding: 20px;\n  }\n"],
+  "mappings": ";AACE;AACE,WAAS;AACT,mBAAiB;AACjB,eAAa;AACb,cAAY;AACZ,SAAO;AACP,WAAS,KAAK;AAChB;AACA,IAAI;AACF,SAAO;AACP,UAAQ,EAAE;AACV,mBAAiB;AACnB;AACA,IAAI,CAAC;AACH,mBAAiB;AACnB;AACA,CAAC;AACC,WAAS;AACX;",
+  "names": []
+}

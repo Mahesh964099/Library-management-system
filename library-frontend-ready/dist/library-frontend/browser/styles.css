@@ -1,0 +1,79 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+  background: #f6f8fa;
+  color: #333;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+nav {
+  background:
+    linear-gradient(
+      90deg,
+      #2c3e50,
+      #4ca1af);
+  padding: 12px 24px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin-right: 16px;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #4ca1af;
+  color: white;
+}
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+}
+.form-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.form-row input,
+.form-row select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  min-width: 160px;
+}
+
+/* angular:styles/global:styles */
+/*# sourceMappingURL=styles.css.map */
